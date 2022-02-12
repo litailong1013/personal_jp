@@ -47,6 +47,31 @@
 
 }
 
+.fix-brand {
+    position: fixed;
+    text-align: right;
+    right: 30px;
+    left: auto;
+    width: 150px;
+    z-index: 200;
+    top: 60%;
+    font-size: 12px;
+
+}
+.fix-brand li{
+    margin-top: 5px
+}
+
+.fix-brand .tit{
+    font-weight: 900;
+    font-style: italic;
+    color: #f9630c;
+}
+
+.fix-brand a:hover { 
+    color:#888; 
+}
+
 /*fix-copy&fix-sns*/ 
 
 
